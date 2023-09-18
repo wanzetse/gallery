@@ -10,7 +10,7 @@ let image = require('./routes/image');
 // connecting the database
 let mongodb_url = 'mongodb://localhost:27017/';
 let dbName = 'darkroom';
-mongoose.connect('mongodb+srv://moringa:<dev04>@devo4.j6jba44.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp',{ useNewUrlParser: true , useUnifiedTopology: true }, (err)=>{
+mongoose.connect('mongodb+srv://dev04:<devo4>@devcl.qwafg2x.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp',{ useNewUrlParser: true , useUnifiedTopology: true }, (err)=>{
     if (err) console.log(err)
 });
 
